@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"home":{
+  	"home": "Home",
+    "works": "Our Works"
+  }
+  ,"game":{
+    "devin": "Code in: ",
+    "deployer": "Deployed by: ",
+    "team": "Team: ",
+    "resume": "Resume: ",
+    "description1": "Developed in celebration of Christmas. Application to which you decorate your Christmas tree and then you can download the scene.",
+    "description2": "Produced for a Game Jam. In which each team had 48 hours to develop their game.",
+    "description2-1": "← → : move the zombie, ↑ : jump and attack with the space bar.",
+    "description3": "Produced for the UNICAP / BlackBerry Game Jam 2013.",
+    "description3-1": "It received the award: ",
+    "description3-2": " Honorable Mention.",
+    "description3-3": "Drag the ship dodging meteors and grab the cifracoins.",
+    "download": "Download to Android",
+    "blackBerry": "Download to BlackBerry"
+  }
+  ,"footer":{
+    "dev": "Developed by: "
+  }
+}

@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Echo Studio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--google font-->
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,900italic' rel='stylesheet' type='text/css'>
+        <!--font awesome-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--jquery-->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<!--i18 translate-->
+		<script type="text/javascript" src="locales/i18next-1.7.7.min.js"></script>
+		<!--banner-->
+		<script src="bxslider/jquery.bxslider.min.js"></script>
+        <link href="bxslider/jquery.bxslider.css" rel="stylesheet"/>
+        <!--style-->
+		<link href='style/style.css' rel='stylesheet' type='text/css' media="screen">
+        <!--font pictonic-->
+        <link rel="stylesheet" href="pictonic/css/pictonic.css">
+        <!--[if lt IE 8]><script src="pictonic/js/pictonic.min.js"></script><![endif]-->
+        <!--script externo-->
+        <script src="script/page_change.js"></script>
+	</head>
+	
+	<body>
+		<div id="content">
+			<header>
+				<div id="title_ESG">
+					<span class="fnt42" id="echo">ECHO</span><br/>
+					<span class="fnt16" id="studio">studio</span>
+				</div>
+				<div id="drop">
+					<nav>
+						<ul>
+							<li><a href="#" class="menu-bar"><span class="fnt18">&#9776;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Menu</span></a>
+								<ul>
+                                    <li class="pag-down"><a href="" onclick="javascript:abrirPag('home');" data-i18n="home.home"></a></li>
+									<li class="pag-down"><a href="javascript:void();" onclick="javascript:abrirPag('app-natal');">App Natal 2012</a></li>
+									<li class="pag-down"><a href="javascript:void();" onclick="javascript:abrirPag('zombie-monsters');">Zombie vs Monsters</a></li>
+									<li class="pag-down"><a href="javascript:void();" onclick="javascript:abrirPag('air-guitar');">Air Guitar</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+
+            <div id="home">
+                <section id="wrapp">
+                    <div class="line"></div>
+                    <div class="fnt24" id="works" data-i18n="home.works"></div>
+                    <div class="line"></div>
+                </section> 
+
+                <section id="slide">
+                    <ul class="bxslider">
+                        <li><a href="javascript:void();" onclick="javascript:abrirPag('app-natal');"><img src="images/natal12_slide.jpg" title="App Natal 2012" /></a></li>
+                        <li><a href="javascript:void();" onclick="javascript:abrirPag('zombie-monsters');"><img src="images/zombiemoster_slide.jpg" title="Zombie vs Monsters" /></a></li>
+                        <li><a href="javascript:void();" onclick="javascript:abrirPag('air-guitar');"><img src="images/airguitar_slide.jpg" title="Air Guitar" /></a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div id="app-natal">
+                <div class="game-name fnt18">
+                    App Natal 2012 <hr/>
+                </div>
+                
+                <div class="game-view">
+                    <object class="player-swf" type="application/x-shockwave-flash"> 
+                        <param name="movie" value="games/appnatal.swf" />
+                        <!-- <param name="wmode" value="opaque"></param>  -->
+                        <param name="quality" value="high" />
+                        <param name="wmode" value="transparent" />
+                        <param name="swfversion" value="6.0.65.0" />
+                        <param name="expressinstall" value="script/expressInstall.swf" />
+                        <param name="scale" value="exactfit" />
+                        <param name="allowFullScreen" value="true" />
+                    </object>
+                </div>
+                
+                <div class="description-game">
+                	<div class="resume-game">
+                        <br/>
+                            <span class="fnt18 description" data-i18n="game.resume"></span>
+                            <hr/>
+                            <p class="description" data-i18n="game.description1">
+                            </p>
+                    </div>
+                    
+                    <div class="title-desc-game dev-game">
+                        <br/>
+                            <span class="fnt18" data-i18n="game.devin"></span>
+                            <hr/>
+                        <br/>
+                        <br/>
+                            <span class="icon-adb-flash fnt42"></span>
+                            &nbsp;&nbsp;&nbsp;
+                            <span class="icon-prog-actionscript fnt42"></span>
+                    </div>
+
+                    <div class="title-desc-game dep-game">
+                        <br/>
+                            <span class="fnt18" data-i18n="game.deployer"></span>
+                            <hr/>
+                        <br/>
+                        <br/>
+                            <span class="fa fa-globe fnt42"></span><br/>WWW
+                    </div>
+                    
+                    <div class="team-game">
+                        <br/>
+                            <span class="fnt18 description" data-i18n="game.team"></span>
+                            <hr/>
+                        <span class="team">
+                            <ul class="fnt12">
+                                <li>Alessandro Emanuel | Game-Develop
+                                &nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.facebook.com/alesefs" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>&nbsp;&nbsp;
+                                    <a href="https://www.linkedin.com/pub/alessandro-emanuel/32/ba1/144" target="_blank"><span class="fnt18 fa fa-linkedin"></span></a>&nbsp;&nbsp;
+                                    <a href="http://arefs.2fh.co/" target="_blank"><span class="fnt18 fa fa-globe "></span></a>
+                                </li>
+                                <li>Carol Rapouso | Art-concept
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/carolraposobs" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Daniel Nipo | 3D Art
+                                &nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.facebook.com/daniel.nipo.98" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Hugo Rocha | Art-Concept
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/hugo.rocha.792" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Jorge Aor | Art-Concept/Sound-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/jorge.aor.9" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Rodrigo Lins | CEO/Art-Concept
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/rodrigo.lins.96" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>                                </li>
+                                <li>Wagner Prestr&ecirc;lo | Game-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/wagnerprestrelo" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+
+            <div id="zombie-monsters">
+                <div class="game-name fnt18">
+                    Zombie vs Monsters <hr/>
+                </div>
+                
+                <div class="game-view">
+                    <div id="swf_container">
+                        <object class="player-swf" type="application/x-shockwave-flash"> 
+                            <param name="movie" value="games/zombievsmonsters.swf" /> 
+                            <param name="quality" value="high" />
+                            <param name="wmode" value="transparent" />
+                            <param name="swfversion" value="6.0.65.0" />
+                            <param name="expressinstall" value="script/expressInstall.swf" />
+                            <param name="scale" value="exactfit" />
+                            <param name="allowFullScreen" value="true" />
+                        </object>
+                    </div>
+                </div>
+                
+                <div class="description-game">
+                	<div class="resume-game">
+                        <br/>
+                            <span class="fnt18 description" data-i18n="game.resume"></span>
+                            <hr/>
+                            <p>
+                                <spam class="description" data-i18n="game.description2"></spam>
+                                <br/>
+                                <span class="description" data-i18n="game.description2-1"></span>
+                            </p>
+                    </div>
+                    
+                    <div class="title-desc-game dev-game">
+                        <br/>
+                            <span class="fnt18" data-i18n="game.devin"></span>
+                            <hr/>
+                        <br/>
+                        <br/>
+                            <span class="icon-flixel"></span>
+                            &nbsp;&nbsp;&nbsp;
+                            <span class="icon-prog-actionscript fnt42"></span>
+                    </div>
+
+                    <div class="title-desc-game dep-game">
+                        <br/>
+                            <span class="fnt18" data-i18n="game.deployer"></span>
+                            <hr/>
+                        <br/>
+                        <br/>
+                            <span class="fa fa-globe fnt42"></span><br/>WWW
+                    </div>
+                    
+                    <div class="team-game">
+                        <br/>
+                            <span class="fnt18 description" data-i18n="game.team"></span>
+                            <hr/>
+                        <span class="team">
+                            <ul class="fnt12">
+                                <li>Alessandro Emanuel | Game-Develop
+                                &nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.facebook.com/alesefs" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>&nbsp;&nbsp;
+                                    <a href="https://www.linkedin.com/pub/alessandro-emanuel/32/ba1/144" target="_blank"><span class="fnt18 fa fa-linkedin"></span></a>&nbsp;&nbsp;     
+                                    <a href="http://arefs.2fh.co/" target="_blank"><span class="fnt18 fa fa-globe "></span></a>
+                                </li>
+                                <li>Hugo Rocha | Art-Concept
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/hugo.rocha.792" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Jorge Aor | Art-Concept/Sound-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/jorge.aor.9" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Fl&aacute;vio Gouveia | Game-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/flavio.victor.16" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+
+            <div id="air-guitar">
+                <div class="game-name fnt18">
+                    Air Guitar <hr/>
+                </div>
+                <div class="game-view">
+                    <div id="air-img-view">
+                    </div>
+                    <a href="games/airguitar.apk">
+                        <div id="btn-download" class="fnt18">
+                            <span class="fa fa-download"></span>&nbsp;&nbsp;
+                            <span data-i18n="game.download"></span>
+                        </div>
+                    </a>
+                    <a href="games/airguitar.bar">
+                        <div id="btn-download2" class="fnt18">
+                            <span class="fa fa-download"></span>&nbsp;&nbsp;
+                            <span data-i18n="game.blackBerry"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="description-game">
+                    <div class="resume-game">
+                        <br/>
+                            <span class="fnt18 description" data-i18n="game.resume"></span>
+                            <hr/>
+                            <p>
+                                <span class="description" data-i18n="game.description3"></span>
+                                <span class="description" data-i18n="game.description3-1"></span> &nbsp;
+                                <a class"fnt16" href="http://www.unicap.br/tecnologicos/jogos/?p=1283">
+                                    <span data-i18n="game.description3-2"></span>
+                                </a>
+                                <span class="description" data-i18n="game.description3-3"></span>
+                            </p>
+                    </div>
+                    
+                    <div class="title-desc-game dev-game">
+                        <br/>
+                            <span class="fnt18" data-i18n="game.devin"></span>
+                            <hr/>
+                        <br/>
+                        <br/>
+                            <span class="icon-android fnt42"></span>
+                            &nbsp;&nbsp;&nbsp;
+                            <span class="icon-prog-java fnt42"></span>
+                    </div>
+
+                    <div class="title-desc-game dep-game">
+                        <br/>
+                            <span class="fnt18" data-i18n="game.deployer"></span>
+                            <hr/>
+                        <br/>
+                        <br/>
+                            <span class="icon-bb"></span>
+                            &nbsp;&nbsp;
+                            <span class="icon-android fnt42"></span>
+                    </div>
+                    
+                    <div class="team-game">
+                        <br/>
+                            <span class="fnt18 description" data-i18n="game.team"></span>
+                            <hr/>
+                        <span class="team">
+                            <ul class="fnt12">
+                                <li>Alessandro Emanuel | Game-Develop
+                                &nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.facebook.com/alesefs" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>&nbsp;&nbsp;
+                                    <a href="https://www.linkedin.com/pub/alessandro-emanuel/32/ba1/144" target="_blank"><span class="fnt18 fa fa-linkedin"></span></a>&nbsp;&nbsp;
+                                    <a href="http://arefs.2fh.co/" target="_blank"><span class="fnt18 fa fa-globe "></span></a>
+                                </li>
+                                <li>Carol Rapouso | Game-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/carolraposobs" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Daniel Nipo | 3D Art
+                                &nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.facebook.com/daniel.nipo.98" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Hugo Rocha | Art-Concept
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/hugo.rocha.792" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Jorge Aor | Art-Concept/Sound-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/jorge.aor.9" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Rodrigo Lins | CEO/Art-Concept
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/rodrigo.lins.96" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                                <li>Wagner Prestr&ecirc;lo | Game-Design
+                                &nbsp;&nbsp;&nbsp; 
+                                    <a href="https://www.facebook.com/wagnerprestrelo" target="_blank"><span class="fnt18 fa fa-facebook"></span></a>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        <footer>
+            <div id="dev" class="fnt12">
+            	<span data-i18n="footer.dev"></span>
+            	<span>
+            		<a href="http://arefs.2fh.co/" target="_blank">&nbsp;&nbsp;alesefs.com</a>
+            	</span>
+        	</div>
+            <div id="flags">
+                <a href="#" id="btn-pt"><img class="flag" src="images/Brazil.png" /></a>
+                <a href="#" id="btn-en"><img class="flag" src="images/England.png" /></a>
+            </div>
+        </footer>
+
+        <!--script interno-->
+		<script src="script/script.js"></script>
+
+	</body>
+</html>

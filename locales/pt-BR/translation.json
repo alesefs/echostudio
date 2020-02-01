@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"home":{
+  	"home": "Início",
+    "works": "Nossos Trabalhos"
+  }
+  ,"game":{
+    "devin": "Criado em: ",
+    "deployer": "Desenvolvido para: ",
+    "team": "Equipe: ",
+    "resume": "Resumo: ",
+    "description1": "Desenvolvido em comemoração ao natal. Aplicativo ao qual, você decora sua árvore de natal e depois pode fazer o download da cena.",
+    "description2": "Produzido para uma Game JAM. No qual, cada equipe tinha 48h para desenvolver seu jogo.",
+    "description2-1": "← → : mover o zumbi, ↑ : pular e ataque com a barra de Espaço.",
+    "description3": "Produzido para a UNICAP / BlackBerry Game Jam 2013.",
+    "description3-1": "Recebeu a premiação de: ",
+    "description3-2": " Mensão Honrosa.",
+    "description3-3": "Arraste a nave desviando dos meteoros e pegue as cifracoins.",
+    "download": "Baixar para Android",
+    "blackBerry": "Baixar para BlackBerry"    
+  }
+  ,"footer":{
+    "dev": "Desenvolvido por: "
+  }
+}
